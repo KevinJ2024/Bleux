@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+:root{
+    --drak-violet:#1e172f;
+    --section-one:#2e2550;
+    --pink:#f41587;
+}
+/* header */
+header{
+    width:auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: var(--drak-violet);
+    color: white;
+}
+#logo{
+    width:150px;
+    height:60px;
+}
+#nav_id{
+    width:500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav_link{
+
+}
+#section1{
+    display: flex;
+    flex-direction: row;
+}
+#section1_1{
+    width: 100%;
+    height: 700px;
+    background-color: #2e2550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#product{
+    margin-left: 100px;
+}
+.p_p{
+    color: white;
+    font-size: 80px;
+    font-weight: bolder;
+}
+#text1{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+#button1-sect1{
+    margin-top: 25px;
+}
+#section1_2{
+    width: 100%;
+    height: 700px;
+    background-image: url(/assets/images/hojasFondo.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+#phone{
+    position: relative;
+    left: 120px;
+    top: 60px;
+}
+#section2{
+background-color: whitesmoke;
+width: auto;
+height:600px
+}
+#fonctionnalites{
+    color: #f41587;
+    font-size: 40px;
+    font-weight: bolder;
+}
