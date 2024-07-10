@@ -91,7 +91,7 @@ header{
     width: auto;
     height:700px;
 }
-#fonctionnalites{
+#title-sect2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,22 +135,37 @@ header{
 #Marketing{
     margin-top: 40px;
     font-size: 30px;
+    color: #f41587;
 }
 #symbols-texts{
+    width: auto;
     display: flex;
     flex-direction: row;
 }
 #symbols{
-    width: 15px;
     display: flex;
     flex-direction: column;
 }
 .symbol-sect2{
+    width: 20px;
+    font-size: 30px;
     color: #f41587;
-    padding-top: 15px;
+    padding-top: 8px;
 }
-#symbol-texts{
+#texts-sect2{
+    width: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
+.class-texts{
+    font-size: 15px;
+    padding: 16px;
+}
+#section3{
+    background-color: #2e2550;
+    height: auto;
+    width: auto;
+}
+
+
 
