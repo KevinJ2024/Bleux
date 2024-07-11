@@ -418,9 +418,6 @@ footer{
     }
 }
 @media screen and (max-width: 481px) {
-    html{
-        width: 600px;
-    }
     .nav-link{
         font-size: 10px;
     }
@@ -437,10 +434,10 @@ footer{
         font-size: 15px;
     }
     #button1-sect1{
-        margin-left: 60px;
+        margin-left: 20px;
     }
     #button2-sect1{
-        margin-left: 60px;
+        margin-left: 20px;
     }
     #phone{
         width: 150px;
@@ -455,7 +452,8 @@ footer{
     #boxs-sect2{
         flex-direction: column;
         margin-top: 50px;
-        margin-left: 100px;
+        margin-left: 40px;
+        width: auto;
     }
     #laptop{
         width: 220px;
@@ -467,6 +465,7 @@ footer{
     #Alpha{
         font-size: 40px;
         margin-left: 50px;
+        width: 300px;
     }
     #text2{
         text-align: center;
