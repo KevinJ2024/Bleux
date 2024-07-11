@@ -183,6 +183,8 @@ header{
     background-color: #2e2550;
     height: 900px;
     width: auto;
+    height: auto;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -415,6 +417,174 @@ footer{
         margin-left: 0px;
     }
 }
+@media screen and (max-width: 481px) {
+    .nav-link{
+        font-size: 10px;
+    }
+    #left-section1{
+        height: 600px;
+    }
+    #right-section1{
+        height: 600px;
+    }
+    .p-p{
+        font-size: 40px;
+    }
+    #text1{
+        font-size: 15px;
+    }
+    #button1-sect1{
+        margin-left: 30px;
+    }
+    #button2-sect1{
+        margin-left: 30px;
+    }
+    #phone{
+        width: 150px;
+        top: 150px;
+    }
+    #section2{
+        height: 600px;
+    }
+    #title-sect2{
+        font-size:40px;
+    }
+    #boxs-sect2{
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    #laptop{
+        width: 220px;
+        margin-left: 380px;
+    }
+    #right-section2{
+        margin-left: 0px;
+    }
+    #Alpha{
+        font-size: 40px;
+        margin-left: 50px;
+    }
+    #text2{
+        text-align: center;
+    }
+    #Marketing{
+        margin-left: 60px;
+        margin-top: 10px;
+        width: 300px;
+    }
+    #symbols-texts{
+        margin-left: 100px;
+        height: auto;
+    }
+    .symbol-sect2{
+        padding-top: 0px;
+    }
+    .class-texts{
+        width: 150px;
+        padding-top: 6px;
+    }
+    #boxs-sect3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 2000px;
+        justify-content: space-evenly;
+    }
+    .lorem-boxs3{
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width: 352px) {
+    header{
+        justify-content: space-evenly;
+    }
+    #logo{
+        width: 100px;
+        height: 30px;
+    }
+    #nav-id{
+        width: 400px;
+        justify-content: space-evenly;
+    }
+    #button-nav{
+        width: 80px;
+        height:40px;
+        padding:0px;
+    }
+    #text1{
+        width: 100px;
+        margin-left: 30px;
+    }
+    #button1-sect1{
+        width: 120px;
+    }
+    #button2-sect1{
+        width: 120px;
+    }
+    #phone{
+        width: 100px;
+        top: 200px;
+    }
+    #title-sect2{
+        font-size: 25px;
+    }
+    #section2{
+        height: auto;
+    }
+    #boxs-sect2{
+        margin-top: 20px;
+    }
+    #laptop{
+        width: 150px;
+        margin-left: 250px;
+    }
+    #Alpha{
+        width: auto;
+        font-size: 25px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    #text2{
+        font-size: 15px;
+        width: 120px;
+        margin-left: 60px;
+    }
+    #Marketing{
+        width: auto;
+        font-size: 25px;
+        margin-left:20px;
+    }
+    #symbols-texts{
+        margin-left: 20px;
+    }
+    .class-texts{
+        padding-top: 8px;
+    }
+    #title-sect3{
+        text-align: center;
+    }
+    #text3{
+        font-size: 15px;
+        width: 200px;
+    }
+    #boxs-sect3{
+        width: auto;
+    }
+    #text4{
+        font-size: 10px;
+    }
+    #name-footer{
+        font-size: 10px;
+    }
+    #email-footer{
+        font-size: 10px;
+    }
+    .footer-img{
+        width: 20px;
+    }
+}
+
 
 
 
