@@ -484,6 +484,9 @@ footer{
         width: 150px;
         padding-top: 6px;
     }
+    #text3{
+        width: 350px;
+    }
     #boxs-sect3{
         display: flex;
         flex-direction: column;
