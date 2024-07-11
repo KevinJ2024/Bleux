@@ -419,7 +419,7 @@ footer{
 }
 @media screen and (max-width: 481px) {
     html{
-        width: 550px;
+        width: 500px;
     }
     .nav-link{
         font-size: 10px;
